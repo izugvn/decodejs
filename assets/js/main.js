@@ -192,7 +192,7 @@
     }
 
     clear.onclick = function () {
-        view.textContent = 'Please choose a right encoding type!';
+        view.textContent = 'Vui lòng chọn đúng loại mã hoá!';
         stopEffect();
         setTimeout(function() {
             auto.onchange();
